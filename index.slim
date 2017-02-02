@@ -1,0 +1,583 @@
+doctype html
+html lang="es" 
+  head
+    meta charset="utf-8"
+    title Ayuda salud, médicos a domicilio
+    meta name="description" content="Se trata de vivir"/
+    meta name="keywords" content="doctor a domicilio, medicos a domicilio, medico a domicilio, atención medica a domicilio, ambulancia particular domicilio, doctor 24 horas, ambulancia, medicos, domiclio, santiago"/
+    meta name="author" content="Gricel Sepúlveda"/
+    meta name="viewport" content="width=device-width, initial-scale=1.0"/
+    script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"
+    script src="https://use.fontawesome.com/10eea058a9.js"
+    script src="unslider-master/src/js/unslider.js"
+    script src="js/scripts.js"
+    script src="js/noframework.waypoints.min.js"
+    link rel="stylesheet" href="unslider-master/dist/css/unslider.css"
+    link rel="stylesheet" href="unslider-master/dist/css/unslider-dots.css"
+    link rel="stylesheet" href="css/styles.css"
+    //FAVICON
+    link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png"
+    link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"
+    link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png"
+    link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png"
+    link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png"
+    link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png"
+    link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png"
+    link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png"
+    link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196"
+    link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96"
+    link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32"
+    link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16"
+    link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128"
+    meta name="application-name" content="&nbsp;"
+    meta name="msapplication-TileColor" content="#FFFFFF"
+    meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png"
+    meta name="msapplication-square70x70logo" content="img/favicon/mstile-70x70.png"
+    meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png"
+    meta name="msapplication-wide310x150logo" content="img/favicon/mstile-310x150.png"
+    meta name="msapplication-square310x310logo" content="img/favicon/mstile-310x310.png"
+    //ANALYTICS
+    javascript:
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         ga('create', 'UA-86851464-1', 'auto');
+         ga('send', 'pageview');
+    //SCROLL MAGIC
+    script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"
+  body
+    header
+      navbar.quick_nav
+        .group
+          button
+            img src="img/icon_heart.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+            span
+              | Servicios médicos a domicilio 
+              span.light
+                | 24hrs en todo Santiago
+        .group
+          button.skyblue_btn 
+            a href="tel:+56232648437"
+              | +562 32648437
+          button.whatsapp
+            i.fa.fa-whatsapp aria-hidden="true"
+          button.green_btn
+            a href="tel:+56945018736"
+              | +569 4501 8736
+          button.green_btn 
+            a href="tel:+56961452081"
+              | +569 6145 2081
+          button.skyblue_btn.facebook
+            a href="https://www.facebook.com/ayudasalud.cl/"
+              i.fa.fa-facebook aria-hidden="true"
+          button.skyblue_btn.instagram
+            a href="https://www.instagram.com/ayudasalud.cl/"
+              i.fa.fa-instagram aria-hidden="true"
+          button.skyblue_btn.twitter
+            a href="https://twitter.com/ayudasalud_cl"
+              i.fa.fa-twitter aria-hidden="true"
+      navbar.navbar_brand
+        img src="img/logo_color.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        ul.aux
+          li.map
+            figure
+              img src="img/icon_sitemap.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+            span Mapa del sitio 
+          li.faq
+            figure
+              img src="img/icon_faq.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+            span Preguntas frecuentes
+          li.job
+            figure
+              img src="img/icon_job.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio"  
+            span Trabaja con nosotros
+        a href="http://www.mihc.cl"
+          button tu historia clinica
+      navbar.menu
+        figure
+        ul
+          a href="#index"
+            li.index_link.active Inicio
+          a href="#how_it_works"
+            li.howitworks_link Cómo funciona
+          a href="#services"
+            li.services_link Servicios
+          a href="#our_team"
+            li.ourteam_link Conócenos
+          a href="#pricing"
+            li.pricing_link Cobertura y pago
+          a href="#contact"
+            li.contact_link Contacto
+        hr
+      button.mobile_menu
+        i.fa.fa-bars aria-hidden="true"
+    section.banner.my-slider#index
+      ul
+        li.slide
+          article
+            h2 Atención médica a domicilio 24 horas en todo Santiago.
+            p Ayuda Salud es un llamado a su bienestar.
+            button.info Cómo funciona
+        li.slide
+          article
+            h2 Promoción plan mensual de kinesiólogo o cuidador.
+            p Al contratar cualquiera de estos planes te damos UNA VISITA MÉDICA GRATIS Y LAS SIGUIENTES CON UN 50% DE DESCUENTO.
+            a href="#contact" 
+              button Contactar
+        li.slide
+          article
+            h2 Traslado de pacientes:
+            p Dentro de todo Santiago e incluso a regiones, nosotros nos encargamos.
+            a href="tel:+56945018736"
+              button Llámanos
+        li.slide
+          article
+            h2 Accede cuando quieras a tu historia clínica:
+            p  Desde cualquier dispositivo móvil o computador.
+            a href="tel:+56945018736"
+              button Llámanos
+        li.slide
+          article
+            h2 Hospitalización domiciliaria
+            p Nuestro equipo está preparado para realizar hospitalizaciones en casa.
+            a href="#contact"
+              button Contactar
+    section.features
+      article 
+        figure
+          img src="img/figure_1.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        h3 Médicos disponibles:
+        p Para asegurar que tu consulta sea atendida.
+      article 
+        figure
+          img src="img/figure_2.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        h3 Urgencias 24hrs:
+        p Para acudir a tu llamado dentro de todo Santiago
+      article 
+        figure
+          img src="img/figure_3.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        h3 Hospitalización domiciliaria:
+        p Para cuidar a quienes más quieres.
+    section#how_it_works
+      h1 ¿Cómo funciona?
+      .flex
+        article
+          span 1
+          h2 Contáctanos:
+          p A través de los canales disponibles: teléfono, chat o correo.
+          img src="img/step_1.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        article
+          span 2
+          h2 Escoge el servicio:
+          p Médico, enfermería, kinesiología, cuidadores, exámenes o traslado.
+          img src="img/step_2.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        article
+          span 3
+          h2 Recibe atención:
+          p Directamente en el domicilio indicado, en cualquier comuna de Santiago.
+          img src="img/step_3.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        article
+          span 4
+          h2 Realiza tu pago:
+          p A través de los siguientes métodos de pago: Transbank, transferencia electrónica o efectivo.
+          img src="img/step_4.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        article
+          span 5
+          h2 Revista tu historia clínica:
+          p Cuando quieras y dónde sea que estés podrás chequear tu historial o ficha médica.
+          img src="img/step_5.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+      figure
+        img src="img/line.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+      button.btn_blue.info Más información
+    section#services
+      h1 Servicios
+      .flex_services
+        article.general 
+          h2 Medicina general
+          figure 
+            img src="img/medicina_general.jpg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+          p
+            | Médicos generales dedicados a la atención de niños, adultos y adultos mayores, con experiencia en diagnóstico y manejo de enfermedades agudas y crónicas.
+            br
+            | El médico asiste acompañado de un personal de enfermería, con insumos y medicamentos en caso de requerirse algún procedimiento a la brevedad.
+        article.nurse
+          h2 Enfermería
+          figure 
+            img src="img/nurse.jpg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+          p
+            | Sondas.
+            br
+            | Curaciones.
+            br
+            | Tratamientos inyectables.
+            br
+            | Nebulización y aspiración de secreciones.
+            br
+            | Oxigenoterapia.
+            br
+            | Visitas de supervisión y control.
+        article.kine 
+          h2 Kinesiología
+          figure 
+            img src="img/kine.jpg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+          p
+            | Evaluación kinésica integral.
+            br
+            | Kinesiología respiratoria en niños y adultos.
+            br
+            | Neurorehabilitación infantil y adulta.
+            br
+            | Kinesiología en geriatría.
+            br
+            | Rehabilitación traumatológica.
+      .flex_services
+        article.care
+          h2 Cuidadores
+          figure 
+            img src="img/care.jpg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+          p
+            | Servicios de cuidado continuo, apoyo sanitario, alimentación y movilización de pacientes.
+            br
+            | Personal colaborador en la ejecución de procedimientos básicos de enfermería y en acciones de: promoción de salud, protección, recuperación y rehabilitación del paciente y su familia bajo la supervisión del personal médico.
+        article.examn 
+          h2 Exámenes
+          figure 
+            img src="img/examn.jpg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+          p
+            | Exámenes de laboratorio y electrocardiograma en domicilio.
+            br
+            | Los resultados serán entregados lo antes posible mediante correo electrónico o llevados directamente por el médico en caso de agendar un control.
+        article.traslation 
+          h2 Traslado de pacientes
+          figure 
+            img src="img/translate.jpg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+          p
+            | Traslados en ambulancia básica dentro de Santiago y a Regiones.
+    section#our_team
+      figure.banner_team
+      h1
+        | El equipo   
+        figure
+          img src="img/doctor.jpg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+        | Ayuda Salud
+      p
+        | Somos una empresa de servicios de salud a domicilio, con cobertura en toda la Región Metropolitana que funciona 24 horas, todos los días. Nuestro objetivo es dar soluciones a los problemas de salud evitando desplazarse fuera del hogar, entregando bienestar al paciente y su familia. Queremos ser líderes en los cuidados de la salud pre y post hospitalaria, mediante el mejoramiento continuo, innovación y uso de la tecnología.
+    section#pricing
+      figure.bg_medical
+      h1 Cobertura y formas de pago
+      .selector
+        select.pricing
+          option selected="" disabled="" Seleccione su comuna
+          option value="overprice" Buin
+          option value="overprice" Cerrillos
+          option value="overprice" Cerro Navia
+          option value="overprice" Colina
+          option value="normal" Conchalí
+          option value="overprice" El Bosque
+          option value="normal" Estación Central
+          option value="normal" Huechuraba
+          option value="normal" Independencia
+          option value="overprice" La Cisterna
+          option value="overprice" La Florida
+          option value="overprice" La Granja
+          option value="overprice" La Pintana
+          option value="normal" La Reina
+          option value="overprice" Lampa
+          option value="normal" Las Condes
+          option value="normal" Lo Barnechea
+          option value="overprice" Lo Espejo
+          option value="normal" Lo Prado
+          option value="normal" Macúl
+          option value="overprice" Maipú
+          option value="overprice" Padre Hurtado
+          ption value="overprice" Paine
+          option value="normal" Pedro Aguirre Cerda
+          option value="overprice" Peñalolén
+          option value="overprice" Pirque
+          option value="normal" Providencia
+          option value="overprice" Pudahuel
+          option value="overprice" Puente Alto
+          option value="normal" Quilicura
+          option value="normal" Quinta Normal
+          option value="normal" Recoleta
+          option value="normal" Renca
+          option value="overprice" San Bernardo
+          option value="normal" San Joaquín
+          option value="overprice" San José de Maipo
+          option value="normal" San Miguel
+          option value="overprice" San Ramón
+          option value="normal" Santiago
+          option value="normal" Vitacura
+          option value="normal" Ñuñoa
+        .btn
+          i.fa.fa-caret-down aria-hidden="true"
+      .cost
+        span Costo: 
+        input.pricing_result type="text" value=""
+      .flex
+        article 
+          img src="img/transfer.svg" alt="transferencia bancaria"
+        article 
+          img src="img/transbank.png" alt="transbank"
+        article 
+          img src="img/cash.svg" alt="efectivo"
+        article 
+          img src="img/cheque.svg" alt="cheque"
+    section#brands
+      h1 Convenios y marcas asociadas
+      .flex_brand
+        article
+          figure 
+            a href="http:www.isapres.cl"
+              img src="img/isapres.png" alt="isapres"
+          p Isapres de Chile
+        article
+          figure 
+            a href="http:www.fonasa.cl"
+              img src="img/fonasa.svg" alt="fonasa"
+          p Fondo Nacional de Salud
+        article
+          figure 
+            a href="http:www.hogarclinico.cl"
+              img src="img/mother.png" alt="mothers hogar clínico"
+          p Mothers, hogar clínico.
+        article
+          figure 
+            a href="https://chassistance.wordpress.com/"
+              img src="img/comfort.png" alt="comfort health assistance"
+          p Comfort, Health Assistance.
+        article
+          figure 
+            a href="https://www.avislatam.com/"
+              img src="img/avis.png" alt="avis latam"
+          p Avis Latam.
+        article
+          figure 
+            a href="http://april.coris.com/chile/"
+              img src="img/coris.png" alt="coris"
+          p Coris, asistencia al viajero.
+    section#contact
+      h1 Contacto
+      p Si tienes dudas acerca de nuestros servicios, consultas generales y sugerencias, escríbenos
+      form name='formulario2' id='formulario2' method='post' action='enviar2.php' target='_self' enctype="multipart/form-data"
+        .flexi
+          label Nombre:
+          input name="Nombre" id="Nombre" type="text" placeholder="Ej: Pablo Pérez..."
+        .flexi
+          label Correo:
+          input name="email" id="email" type="text" placeholder="Ej: pablo@correo.cl..."
+        .flexi
+          label Teléfono:
+          input type="text" name="telefono" id="telefono" placeholder="Ej: +569..."
+        .flexi
+          label Mensaje:
+          textarea name="mensaje" id="mensaje" rows="10" placeholder="Mensaje..."
+        button.btn_blue type="submit" Enviar
+    footer
+      img src="img/logo_white.svg" alt="medico a domicilio, doctor a domicilio, medicos a domicilio, doctores a domicilio" 
+      p
+        | Avenida Guanaco Norte 1579, Huechuraba
+        br
+        a href="tel:+56945018736" (+569) 45018736
+        |  - 
+        a href="tel:+56961452081" (+569) 61452081
+        br
+        a href="mailto:contacto@ayudasalud.cl" contacto@ayudasalud.cl
+    .footer
+      | Sitio web diseñado por 
+      a href="http://www.gricelsepulveda.cl"
+        img src="img/gricel.svg" Gricel Sepúlveda ©2017 alt="gricel sepulveda, gricel, sitios web"
+    .bg_pop
+    .pop.faq_pop
+      nav
+        h2 Preguntas frecuentes
+        button.close
+          i.fa.fa-times aria-hidden="true"
+      ul
+        li 
+          span ¿Cuál es la cobertura y horario de los servicios?
+          p 
+            | Atendemos en toda la Región Metropolitana, 24 horas al día y los 365 días del año.
+        li 
+          span ¿Cómo puedo pedir una cita médica y cuanto es el tiempo de espera para ser atendido?
+          p 
+            | Agenda tu cita telefónicamente a través de los números que aparecen en nuestra página web o por medio de nuestro chat online. Una vez ingresado el paciente a nuestro sistema, el tiempo de espera es regularmente de una hora. En algunos casos el tiempo es mayor cuando hay mayor demanda y viceversa.
+        li 
+          span ¿Qué datos me piden para agendar una cita médica?
+          p 
+            | Nombre completo, RUT, fecha de nacimiento, motivo de consulta y antecedentes médicos relevantes, dirección, previsión, seguro médico, teléfono de contacto y correo electrónico.
+        li 
+          span ¿Qué diferencia hay entre urgencia y emergencia?; ¿En qué se enfoca el servicio? 
+          p 
+            |  No todo lo que el paciente percibe como urgencia realmente lo es. Una urgencia médica es una situación en la que se requiere de una oportuna atención médica sin encontrarse en riesgo la vida del paciente. Emergencia médica es definida como una situación que amenaza inmediatamente la vida de una persona y cuya asistencia no puede ser demorada. NOSOTROS NOS ENFOCAMOS EN URGENCIAS MÉDICAS.
+        li 
+          span ¿Cómo puedo reembolsar mi atención médica si tengo Isapre? 
+          p 
+            |  En cada consulta entregamos boleta de servicio que puede ser reembolsada por ISAPRES.
+        li 
+          span Si tengo Fonasa, ¿Cómo puedo acceder a una atención médica a domicilio?
+          p 
+            |  Con bono de atención médica domiciliaria que puede comprar en cualquier sucursal FONASA. Telefónicamente le damos los datos para comprar el bono. Si necesita la atención a la brevedad nos puede dejar la garantía y tiene 7 días hábiles para entregar el bono en la central.
+        li 
+          span ¿Cuáles son los datos para realizar la transferencia electrónica? 
+          p 
+            | A nombre de: Servicios Médicos Daniel Zurita Seguel.
+            br
+            | RUT: 76.506.488-0
+            br
+            | Banco de chile.
+            br
+            | Nro. de cta.: 01800458703
+            br
+            | Cuenta corriente.
+            br
+            | Correo: contacto@ayudasalud.cl
+        li 
+          span ¿Qué es la ficha clínica online y cómo puedo acceder a ella? 
+          p 
+            |  La ficha clínica online es un documento que recoge toda la información de tus atenciones médicas realizadas con nosotros con la finalidad de garantizar transparencia y el acceso a tu historial médico cuando quieras. Con la información proporcionada, le ayudará a Ud. y a su médico planificar sus controles en forma personalizada. Para ver su historia clínica entre a 
+             a href="http:www.mihc.cl" www.mihc.cl
+        li 
+          span ¿Puedo usar mi seguro complementario?
+          p 
+            |  Sí; para esto debes presentar el documento de tu seguro durante la atención, el cuál debe ser llenado por el médico.
+        li 
+          span ¿Emiten certificados y licencias médicas?
+          p 
+            |  Se emiten Licencias Médicas y Certificados según indicación médica.
+    .pop.info_pop
+      nav
+        h2 Proceso de atención ayuda salud
+        button.close
+          i.fa.fa-times aria-hidden="true"
+      ul
+        li 
+          span 1. Contáctanos:
+          p 
+            | Agenda tu cita por vía telefónica o por chat online en nuestra página web. 
+        li 
+          span 2. Escoge el servicio:
+          p 
+            | Escoge el servicio que deseas: Servicio médico, enfermera, cuidador, toma de exámenes, curaciones, tratamiento, etc.
+        li 
+          span 3. Recibe la atención:
+          p 
+            | Acude a tu domicilio un personal médico y de enfermería quienes efectúan la atención médica preparados para realizar tratamiento inyectable o procedimientos en caso de que lo necesites. El médico emite órdenes de exámenes, recetas, licencia o certificado si lo ameritas y registra la atención médica en Mi HC online.
+        li 
+          span 4. Realiza tu pago:
+          p 
+            | Al finalizar tu consulta médica, emitimos tu boleta de atención y ya puedes cancelar por cualquiera de los medios de pago mencionados.
+        li 
+          span 5. Revisa tu historia clínica online:
+          p
+            | Una vez terminada tu atención médica, podrás entrar a: www.mihc.cl, para visualizar tu atención médica e indicaciones. Estas las podrás ver las veces que desees desde cualquier computador o dispositivo móvil conectado a internet.
+    .pop.job_pop
+      nav
+        h2 Postula a Ayudasalud.cl
+        button.close
+          i.fa.fa-times aria-hidden="true"
+      form name='formulario' id='formulario' method='post' action='enviar.php' target='_self' enctype="multipart/form-data" 
+        .flexi
+          label Nombre:
+          input name="Nombre" id="Nombre" type="text" placeholder="Ej: Pablo Pérez..."
+        .flexi
+          label Rut:
+          input name="rut" id="rut" type="text" placeholder="17.325.72..."
+        .flexi
+          label Correo:
+          input name="email" id="email" type="text" placeholder="Ej: pablo@correo.cl..."
+        .flexi
+          label Teléfono:
+          input name="Telefono" id="Telefono" type="text" placeholder="Ej: +5696..."
+        .flexi
+          label Adjuntar CV:
+          input type='file' name='archivo1' id='archivo1'
+        button.btn_blue type="submit" value="Enviar" Enviar
+    .pop.map_pop
+      nav
+        h2 Mapa del sitio:
+        button.close
+          i.fa.fa-times aria-hidden="true"
+      ul.list 
+        li 
+          | Inicio.
+          ul 
+            li Médicos disponibles.
+            li Urgencias 24hrs.
+            li Hospitalización domiciliaria.
+        li 
+          | Cómo funciona
+          ul
+            li Contactanos.
+            li Escoge el servicio.
+            li Recibe atención.
+            li Realiza tu pago.
+            li Revisa tu historia clínica.
+        li 
+          | Servicios.
+          ul 
+            li Medicina general.
+            li Enfermería.
+            li Kinesiología.
+            li Cuidadaores.
+            li Exámenes.
+            li Traslado de pacientes.
+        li 
+          | Conócenos.
+          ul 
+            li El equipo de Ayuda Salud.
+        li 
+          | Cobertura y pago.
+          ul
+            li Formas de pago.
+            li Marcas asociadas.
+        li Contacto.
+    .pop.success_pop
+      nav
+        h2 Formulario enviado:
+        button.close
+          i.fa.fa-times aria-hidden="true"
+        p.message 
+          | Su mensaje ha sido enviado de forma exitosa. Nos pondremos en contacto a la brevedad.
+        span.btn_blue.close ok
+    javascript:
+      var $_Tawk_API={},$_Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/56fc7fccd68ada7f0faefdd2/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
