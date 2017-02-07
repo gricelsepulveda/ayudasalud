@@ -883,6 +883,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/prepros-6.config": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prepros-6.config",
+		"oF": 0
+		},
 	"\/scss\/_bootstrap.scss": {
 		"aP": 0,
 		"bl": 0,
