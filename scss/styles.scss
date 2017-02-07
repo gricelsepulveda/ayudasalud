@@ -58,7 +58,7 @@ $green: #d8e036;
 //SCROLLBARS
 ::-webkit-scrollbar 
 {
-  width: 10px;
+  width: 5px;
   @include animar;
 }
 
@@ -1135,9 +1135,13 @@ figure
       &:nth-of-type(5)
       {
         margin-top: 6rem;
+        padding-right: 2rem;
+        padding-left: 1rem;
         @media #{$sm}
         {
           margin-top: 0rem;
+          padding-right: 0rem;
+          padding-left: 0rem;
         }
       }
       @media #{$sm}
@@ -1343,6 +1347,11 @@ figure
       transform: uppercase;
     }
     margin-top: 1.5rem;
+    @media #{$sm}
+    {
+      margin-right: 1rem!important;
+      padding-right: 1rem !important;
+    }
   }
   .selector
   {
@@ -1464,7 +1473,7 @@ figure
       }
       img 
       {
-        width: 150px;
+        width: 200px;
         position: relative;
         display: inline;
         height: auto;
@@ -1477,7 +1486,7 @@ figure
         margin: 0.25rem;
         img 
         {
-          width: 100px;
+          width: 125px;
         }
       }
     }
@@ -2115,11 +2124,11 @@ footer
     size: 0.6rem; 
   }
   color: $skyblue;
-  text-align: right;
+  text-align: left;
   padding: 0.5rem 1rem 0.5rem 1rem;
   @media #{$sm}
   {
-    text-align: center;
+    text-align: left;
   }
   img 
   {
@@ -2417,7 +2426,13 @@ footer
   display: none;
 }
 
-
+button.skyblue_btn.instagram
+{
+  @media #{$sm}
+  {
+    display: none!important;
+  }
+}
 
 
 

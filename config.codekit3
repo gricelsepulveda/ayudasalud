@@ -9,10 +9,10 @@
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/bower.json": {
@@ -91,26 +91,6 @@
 		"oAP": "\/config.rb",
 		"oF": 0
 		},
-	"\/css\/estilos-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/estilos-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/estilos.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/estilos-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/font-awesome.min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -118,16 +98,6 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/font-awesome.min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/styles-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/styles-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -629,6 +599,36 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/mpago_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/mpago_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/mpago_2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/mpago_2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/mpago_3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/mpago_3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/nurse.jpg": {
 		"ft": 16384,
 		"iS": 10647449,
@@ -889,6 +889,24 @@
 		"oAP": "\/prepros-6.config",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/scss\/_bootstrap.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -897,20 +915,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\" # by Fire.app \/_bootstrap.css",
+		"oAP": "\/css\/_bootstrap.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
 	"\/scss\/styles.scss": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\" # by Fire.app \/styles.css",
+		"oAP": "\/css\/styles.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
@@ -1124,7 +1142,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\" # by Fire.app \/unslider.css",
+		"oAP": "\/css\/unslider.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
@@ -1137,7 +1155,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\" # by Fire.app \/dots.css",
+		"oAP": "\/css\/dots.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
@@ -1150,7 +1168,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\" # by Fire.app \/reset.css",
+		"oAP": "\/css\/reset.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
@@ -1163,7 +1181,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\" # by Fire.app \/variables.css",
+		"oAP": "\/css\/variables.css",
 		"oF": 1,
 		"oS": 3,
 		"uL": 1
